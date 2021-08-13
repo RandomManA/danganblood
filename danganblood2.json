@@ -193,7 +193,7 @@
     "setup": false,
     "name": "Imposter",
     "team": "townsfolk",
-    "ability": "Once per game, at night, choose a good character: gain that ability. If this character is in play, they are an Imitation."
+    "ability": "Once per game, at night, choose a hope character: gain that ability. If this character is in play, they are an Imitation."
   },
   {
     "id": "hanamura",
