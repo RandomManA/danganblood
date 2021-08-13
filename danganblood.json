@@ -87,7 +87,7 @@
     "setup": false,
     "name": "Detective",
     "team": "townsfolk",
-    "ability": "Each night*, choose 2 players: you learn if either is the Mastermind. There is a hope player that registers as the Mastermind to you."
+    "ability": "Each night, choose 2 players: you learn if either is the Mastermind. There is a hope player that registers as the Mastermind to you."
   },
   {
     "id": "kuwata",
