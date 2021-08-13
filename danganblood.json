@@ -4,7 +4,7 @@
     "image": "https://github.com/RandomManA/danganblood/blob/main/assets/asahina.png?raw=true",
     "edition": "custom",
     "firstNight": 32,
-    "firstNightReminder": "Show the finger signal (0, 1, 2, \u2026) for the number of pairs of neighbouring evil players.",
+    "firstNightReminder": "Show the finger signal (0, 1, 2, \u2026) for the number of pairs of neighbouring despair players.",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -12,7 +12,7 @@
     "setup": false,
     "name": "Swimming Pro",
     "team": "townsfolk",
-    "ability": "You start knowing how many pairs of evil players there are."
+    "ability": "You start knowing how many pairs of despair players there are."
   },
   {
     "id": "fujisaki",
@@ -64,15 +64,15 @@
     "image": "https://github.com/RandomManA/danganblood/blob/main/assets/ishimaru.png?raw=true",
     "edition": "custom",
     "firstNight": 33,
-    "firstNightReminder": "Show the finger signal (0, 1, 2) for the number of evil alive neighbors of the Moral Compass.",
+    "firstNightReminder": "Show the finger signal (0, 1, 2) for the number of despair alive neighbors of the Moral Compass.",
     "otherNight": 50,
-    "otherNightReminder": "Show the finger signal (0, 1, 2) for the number of evil alive neighbors of the Moral Compass.",
+    "otherNightReminder": "Show the finger signal (0, 1, 2) for the number of despair alive neighbors of the Moral Compass.",
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
     "name": "Moral Compass",
     "team": "townsfolk",
-    "ability": "Each night, you learn how many of your 2 alive neighbors are evil."
+    "ability": "Each night, you learn how many of your 2 alive neighbors are despair."
   },
   {
     "id": "kirigiri",
@@ -87,7 +87,7 @@
     "setup": false,
     "name": "Detective",
     "team": "townsfolk",
-    "ability": "Each night*, choose 2 players: you learn if either is the Mastermind. There is a good player that registers as the Mastermind to you."
+    "ability": "Each night*, choose 2 players: you learn if either is the Mastermind. There is a hope player that registers as the Mastermind to you."
   },
   {
     "id": "kuwata",
@@ -112,7 +112,7 @@
     "firstNightReminder": "Show the character token of a Traitor in play. Point to two players, one of which is that character.",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Minion","Wrong"],
+    "reminders": ["Traitor","Wrong"],
     "remindersGlobal": [],
     "setup": false,
     "name": "Gambler",
@@ -127,7 +127,7 @@
     "firstNightReminder": "Show the character token of a Classmate in play. Point to two players, one of which is that character.",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Townsfolk","Wrong"],
+    "reminders": ["Classmate","Wrong"],
     "remindersGlobal": [],
     "setup": false,
     "name": "Pop Star",
@@ -197,7 +197,7 @@
   {
     "id": "gekkogahara",
     "image": "https://github.com/RandomManA/danganblood/blob/main/assets/gekkogahara.png?raw=true",
-    "name": "Robot",
+    "name": "Imitation",
     "edition": "custom",
     "team": "outsider",
     "firstNight": 0,
@@ -205,9 +205,9 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
-    "remindersGlobal": ["Drunk"],
+    "remindersGlobal": ["Imitation"],
     "setup": true,
-    "ability": "You do not know you are the Robot. You think you are a Classmate character, but you are not."
+    "ability": "You do not know you are the Imitation. You think you are a Classmate character, but you are not."
   },
   {
     "id": "jack",
@@ -222,7 +222,7 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "You might register as evil & as a Traitor or Mastermind, even if dead."
+    "ability": "You might register as despair & as a Traitor or Mastermind, even if dead."
   },
   {
     "id": "jkirigiri",
@@ -279,7 +279,7 @@
     "firstNightReminder": "",
     "otherNight": 18,
     "otherNightReminder": "If the Soldier became the Mastermind today: Show the 'You are' card, then the demon token.",
-    "reminders": ["Demon"],
+    "reminders": ["Mastermind"],
     "remindersGlobal": [],
     "setup": false,
     "ability": "If there are 5 or more players alive & the Mastermind dies, you become the Mastermind. (Travellers don\u2019t count)"
@@ -297,7 +297,7 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "Each night, you see the Yearbook. You might register as good & as a Classmate or Outsider, even if dead."
+    "ability": "Each night, you see the Yearbook. You might register as hope & as a Classmate or Outsider, even if dead."
   },
   {
     "id": "kizakura",
