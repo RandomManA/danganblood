@@ -325,7 +325,7 @@
     "otherNightReminder": "The Vortox points to a player. That player dies.",
     "reminders": ["Dead"],
     "remindersGlobal": [],
-    "setup": true,
+    "setup": false,
     "name": "Ultimate Despair",
     "team": "demon",
     "ability": "Each night*, choose a player: they die. Classmate abilities yield false info. Each day, if no-one is executed, despair wins."
@@ -370,7 +370,7 @@
     "otherNightReminder": "The Virus points to a player. That player dies. Or, if that player was an Outsider and there are no other Virus in play: The Virus dies instead of the chosen player. The chosen player is now an evil Virus. Wake the new Virus. Show the 'You are' card, then the Virus token. Show the 'You are' card, then the thumb-down 'evil' hand sign.",
     "reminders": ["Dead","Once"],
     "remindersGlobal": [],
-    "setup": false,
+    "setup": true,
     "name": "Virus",
     "team": "demon",
     "ability": "Each night*, choose a player: they die. The 1st Outsider this kills becomes an evil Virus & you die instead. [+1 Outsider]"
