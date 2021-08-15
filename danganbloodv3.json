@@ -55,7 +55,7 @@
     "reminders": ["Dead"],
     "remindersGlobal": [],
     "setup": false,
-    "name": "Apprentice Detective",
+    "name": "Novice Detective",
     "team": "townsfolk",
     "ability": "Each night*, choose a player & guess their character: if you guess wrong, you die."
   },
@@ -225,34 +225,34 @@
     "ability": "You might die at any time."
   },
   {
-    "id": "monomi",
-    "image": "https://github.com/RandomManA/danganblood/blob/main/assets/monomi.png?raw=true",
-    "name": "Monomi",
+    "id": "monotaro",
+    "image": "https://github.com/RandomManA/danganblood/blob/main/assets/monotaro.png?raw=true",
+    "name": "Monotaro",
     "edition": "custom",
     "team": "outsider",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 38,
-    "otherNightReminder": "Choose a player that is an Imitation.",
+    "otherNight": 0,
+    "otherNightReminder": "",
     "reminders": ["Imitation"],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "When you die, 1 player is an Imitation from now on."
+    "ability": "Each night, the 1st player to choose you with their ability is an Imitation until dusk. You become their alignment."
   },
   {
-    "id": "saionji",
-    "image": "https://github.com/RandomManA/danganblood/blob/main/assets/saionji.png?raw=true",
-    "name": "Dancer",
+    "id": "monophanie",
+    "image": "https://github.com/RandomManA/danganblood/blob/main/assets/monophanie.png?raw=true",
+    "name": "Monophanie",
     "edition": "custom",
     "team": "outsider",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 37,
-    "otherNightReminder": "If the Dancer died today: Wake the Mastermind. Show the 'This character selected you' card, then Dancer token. The Mastermind either shows a 'no' head signal, or points to 2 players. If they chose players: Swap the character tokens. Wake each player. Show 'You are', then their new character token.",
-    "reminders": ["Haircuts tonight"],
+    "otherNight": 47,
+    "otherNightReminder": "If Monophanie used their ability to target a player today: If that player is hope, they die.",
+    "reminders": ["Dead"],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "If you died today or tonight, the Mastermind may choose 2 players (not another Mastermind) to swap characters."
+    "ability": "When you learn that you died, publicly choose 1 alive player. Tonight, if it was a hope player, they die."
   },
   {
     "id": "izuru",
