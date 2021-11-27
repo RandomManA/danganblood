@@ -81,13 +81,13 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 8,
-    "otherNightReminder": "The previously protected and drunk players lose those markers. The Innkeeper points to two players. Those players are protected. One is drunk.",
-    "reminders": ["Protected","Imitation"],
+    "otherNightReminder": "The previously protected and fictional players lose those markers. The Entomologist points to two players. Those players are protected. One is fictional.",
+    "reminders": ["Protected","Fictional"],
     "remindersGlobal": [],
     "setup": false,
     "name": "Entomologist",
     "team": "townsfolk",
-    "ability": "Each night*, choose 2 players: they can't die tonight, but 1 is an imitation until dusk."
+    "ability": "Each night*, choose 2 players: they can't die tonight, but 1 is fictional until dusk."
   },
   {
     "id": "k1-b0",
@@ -124,15 +124,15 @@
     "image": "https://github.com/RandomManA/danganblood/blob/main/assets/amami.png?raw=true",
     "edition": "custom",
     "firstNight": 9,
-    "firstNightReminder": "The Survivor points to a living player. Either the Survivor, or the chosen player, is now an Imitation.",
+    "firstNightReminder": "The Survivor points to a living player. Either the Survivor, or the chosen player, is now fictional.",
     "otherNight": 4,
-    "otherNightReminder": "The previously Imitation player is no longer an Imitation. The Survivor points to a living player. Either the Survivor, or the chosen player, is now an Imitation.",
-    "reminders": ["Imitation"],
+    "otherNightReminder": "The previously fictional player is no longer fictional. The Survivor points to a living player. Either the Survivor, or the chosen player, is now fictional.",
+    "reminders": ["Fictional"],
     "remindersGlobal": [],
     "setup": false,
     "name": "Survivor",
     "team": "townsfolk",
-    "ability": "Each night, choose an alive player: either you or they are an Imitation until dusk. You can't die."
+    "ability": "Each night, choose an alive player: either you or they are fictional until dusk. You can't die."
   },
   {
     "id": "harukawa",
@@ -154,15 +154,15 @@
     "image": "https://github.com/RandomManA/danganblood/blob/main/assets/iruma.png?raw=true",
     "edition": "custom",
     "firstNight": 17,
-    "firstNightReminder": "The Inventor either shows a 'no' head signal, or points to a character on the sheet. If the Inventor used their ability: If that character is in play, that player is an Imitation for 3 nights and 3 days.",
+    "firstNightReminder": "The Inventor either shows a 'no' head signal, or points to a character on the sheet. If the Inventor used their ability: If that character is in play, that player is fictional for 3 nights and 3 days.",
     "otherNight": 9,
-    "otherNightReminder": "Reduce the remaining number of days the marked player is an Imitation. If the Inventor has not yet used their ability: The Inventor either shows a 'no' head signal, or points to a character on the sheet. If the Inventor used their ability: If that character is in play, that player is an Imitation for 3 nights and 3 days.",
-    "reminders": ["Drunk 3","Drunk 2","Drunk 1","No ability"],
+    "otherNightReminder": "Reduce the remaining number of days the marked player is fictional. If the Inventor has not yet used their ability: The Inventor either shows a 'no' head signal, or points to a character on the sheet. If the Inventor used their ability: If that character is in play, that player is fictional for 3 nights and 3 days.",
+    "reminders": ["Fictional 3","Fictional 2","Fictional 1","No ability"],
     "remindersGlobal": [],
     "setup": false,
     "name": "Inventor",
     "team": "townsfolk",
-    "ability": "Once per game, at night, choose a character: they are an Imitation for 3 nights & 3 days."
+    "ability": "Once per game, at night, choose a character: they are fictional for 3 nights & 3 days."
   },
   {
     "id": "yumeno",
@@ -172,12 +172,12 @@
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Everyone Imitation"],
+    "reminders": ["Everyone Fictional"],
     "remindersGlobal": [],
     "setup": false,
     "name": "Magician",
     "team": "townsfolk",
-    "ability": "When a Traitor dies by execution, all other players (except Travellers) are Imitations until dusk tomorrow."
+    "ability": "When a Traitor dies by execution, all other players (except Travellers) are fictional until dusk tomorrow."
   },
   {
     "id": "ouma",
@@ -234,10 +234,10 @@
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Imitation"],
+    "reminders": ["Fictional"],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "Each night, the 1st player to choose you with their ability is an Imitation until dusk. You become their alignment."
+    "ability": "Each night, the 1st player to choose you with their ability is fictional until dusk. You become their alignment."
   },
   {
     "id": "monophanie",
@@ -315,34 +315,34 @@
     "ability": "Once per game, at night*, choose a player: they die, even if for some reason they could not."
   },
   {
-    "id": "shirogane",
-    "image": "https://github.com/RandomManA/danganblood/blob/main/assets/shirogane.png?raw=true",
+    "id": "recreation",
+    "image": "https://github.com/RandomManA/danganblood/blob/main/assets/recreation.png?raw=true",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 25,
-    "otherNightReminder": "One player that the Cosplayer chose the previous night might be resurrected. The Cosplayer points to two players. Those players die.",
+    "otherNightReminder": "One player that the Recreation chose the previous night might be resurrected. The Recreation points to two players. Those players die.",
     "reminders": ["Dead","Alive"],
-    "remindersGlobal": [],
-    "setup": false,
-    "name": "Cosplayer",
-    "team": "demon",
-    "ability": "Each night*, choose 2 players: they die. A dead player you chose last night might be resurrected."
-  },
-  {
-    "id": "recreation",
-    "image": "https://github.com/RandomManA/danganblood/blob/main/assets/recreation.png?raw=true",
-    "edition": "custom",
-    "firstNight": 25,
-    "firstNightReminder": "The Recreation points to a player. That player is poisoned.",
-    "otherNight": 24,
-    "otherNightReminder": "The Recreation points to a player. That player is poisoned. The previously poisoned player dies.",
-    "reminders": ["Dead","Poisoned"],
     "remindersGlobal": [],
     "setup": false,
     "name": "Recreation",
     "team": "demon",
-    "ability": "Each night, choose a player: they are poisoned. The previously poisoned player dies then becomes healthy."
+    "ability": "Each night*, choose 2 players: they die. A dead player you chose last night might be resurrected."
+  },
+  {
+    "id": "shirogane",
+    "image": "https://github.com/RandomManA/danganblood/blob/main/assets/shirogane.png?raw=true",
+    "edition": "custom",
+    "firstNight": 25,
+    "firstNightReminder": "The Cosplayer points to a player. That player is fictional.",
+    "otherNight": 24,
+    "otherNightReminder": "The Cosplayer points to a player. That player is fictional. The previously fictional player dies.",
+    "reminders": ["Dead","Fictional"],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Cosplayer",
+    "team": "demon",
+    "ability": "Each night, choose a player: they are fictional. The previously fictional player dies then becomes healthy."
   },
   {
     "id": "towa",
